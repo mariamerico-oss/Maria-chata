@@ -1,0 +1,47 @@
+/* CSS */
+@import url('https://fonts.googleapis.com/css2?family=BBH+Sans+Hegarty&display=swap');
+body{
+    background-color: aqua;
+}
+
+header{
+    background-color: gray;
+   padding: 10px;
+   border-bottom:4px solid black;
+   font-size:25px;
+   text-decoration: nome;
+   display:flex;
+   justify-content: space-between;
+   align-items: center;
+   margin: 0 auto;
+}
+
+header h3{
+    font-size: 30px;
+    color: white;
+    font-family: "BBH Sans Hegarty", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+.nav ul{
+    list-style: nome;
+    margin: 0;
+    padding: 0;
+    display:flex;
+}
+.nav ul li{
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+
+header ul li a{
+   color:black;
+   text-decoration: nome;
+   transition:color 0.5s;
+
+}
+header ul li a :hover{
+    color: pink;
+}
